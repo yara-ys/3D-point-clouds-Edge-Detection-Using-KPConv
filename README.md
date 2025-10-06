@@ -7,7 +7,8 @@ This repository contains the implementation of my project for the **ABC Challeng
 ## 📘 Project Overview
 
 The goal of the project is to detect **edge points** in 3D point clouds; points that lie on geometric discontinuities such as sharp edges or boundaries of surfaces.  
-This task is crucial for applications in **Computer-Aided Design (CAD)**, **reverse engineering**, and **manufacturing inspection**.
+
+C++ modules are **compiled and adapted from [Hugues Thomas’s KPConv repository](https://github.com/HuguesTHOMAS/KPConv-PyTorch)**.
 
 The challenge dataset, derived from the **ABC Dataset**, provides for each model:
 - `.ply` → Point coordinates (x, y, z) and normals (nx, ny, nz)
@@ -84,11 +85,3 @@ Training time: ~130s per epoch on a GPU (Google Colab).
 These results demonstrate that KPConv is highly effective for fine geometric edge detection.
 
 ---
-
-## 🔮 Future Work
-
-- Data augmentation (rotations, jittering, mirroring)  
-- Deformable KPConv variant  
-- Automated hyperparameter optimization  
-- Model compression (quantization / pruning)
-
