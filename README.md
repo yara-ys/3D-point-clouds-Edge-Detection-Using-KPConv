@@ -92,6 +92,3 @@ These results demonstrate that KPConv is highly effective for fine geometric edg
 - Automated hyperparameter optimization  
 - Model compression (quantization / pruning)
 
-
-## 📂 Repository Structure
-
